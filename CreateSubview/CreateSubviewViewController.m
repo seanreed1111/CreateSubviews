@@ -14,9 +14,20 @@
 
 @implementation CreateSubviewViewController
 
+- (void)loadView
+{
+    [super loadView];
+    CGRect screenRect = [[UIScreen mainScreen]bounds];
+    CGFloat screenWidth = screenRect.size.width;
+    CGFloat screenHeight = screenRect.size.height;
+    BNRHypnosisView *myView = [[BNRHypnosisView alloc]initWithFrame:CGRectMake(0, 0, screenWidth, screenHeight)];
+    self.view = myView;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

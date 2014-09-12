@@ -13,7 +13,6 @@
 		14A3EF7119C332CF00F59FE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14A3EF6F19C332CF00F59FE7 /* InfoPlist.strings */; };
 		14A3EF7319C332CF00F59FE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A3EF7219C332CF00F59FE7 /* main.m */; };
 		14A3EF7719C332CF00F59FE7 /* CreateSubviewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A3EF7619C332CF00F59FE7 /* CreateSubviewAppDelegate.m */; };
-		14A3EF7A19C332CF00F59FE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A3EF7819C332CF00F59FE7 /* Main.storyboard */; };
 		14A3EF7D19C332CF00F59FE7 /* CreateSubviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A3EF7C19C332CF00F59FE7 /* CreateSubviewViewController.m */; };
 		14A3EF7F19C332CF00F59FE7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A3EF7E19C332CF00F59FE7 /* Images.xcassets */; };
 		14A3EF8619C332CF00F59FE7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3EF8519C332CF00F59FE7 /* XCTest.framework */; };
@@ -45,7 +44,6 @@
 		14A3EF7419C332CF00F59FE7 /* CreateSubview-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CreateSubview-Prefix.pch"; sourceTree = "<group>"; };
 		14A3EF7519C332CF00F59FE7 /* CreateSubviewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateSubviewAppDelegate.h; sourceTree = "<group>"; };
 		14A3EF7619C332CF00F59FE7 /* CreateSubviewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateSubviewAppDelegate.m; sourceTree = "<group>"; };
-		14A3EF7919C332CF00F59FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14A3EF7B19C332CF00F59FE7 /* CreateSubviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateSubviewViewController.h; sourceTree = "<group>"; };
 		14A3EF7C19C332CF00F59FE7 /* CreateSubviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateSubviewViewController.m; sourceTree = "<group>"; };
 		14A3EF7E19C332CF00F59FE7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 			children = (
 				14A3EF7519C332CF00F59FE7 /* CreateSubviewAppDelegate.h */,
 				14A3EF7619C332CF00F59FE7 /* CreateSubviewAppDelegate.m */,
-				14A3EF7819C332CF00F59FE7 /* Main.storyboard */,
 				14A3EF7B19C332CF00F59FE7 /* CreateSubviewViewController.h */,
 				14A3EF7C19C332CF00F59FE7 /* CreateSubviewViewController.m */,
 				14A3EF7E19C332CF00F59FE7 /* Images.xcassets */,
@@ -236,7 +233,6 @@
 			files = (
 				14A3EF7F19C332CF00F59FE7 /* Images.xcassets in Resources */,
 				14A3EF7119C332CF00F59FE7 /* InfoPlist.strings in Resources */,
-				14A3EF7A19C332CF00F59FE7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,14 +283,6 @@
 				14A3EF7019C332CF00F59FE7 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		14A3EF7819C332CF00F59FE7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				14A3EF7919C332CF00F59FE7 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		14A3EF8E19C332CF00F59FE7 /* InfoPlist.strings */ = {

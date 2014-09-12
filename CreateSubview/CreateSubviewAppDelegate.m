@@ -16,23 +16,28 @@
     // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
-
-    CGRect firstFrame = self.window.bounds; //    CGRect firstFrame = CGRectMake(160, 240, 100, 150);
-    BNRHypnosisView *firstView = [[BNRHypnosisView alloc]initWithFrame:firstFrame];
-    firstView.backgroundColor = [UIColor clearColor];
+    
+    self.viewController = [[CreateSubviewViewController alloc]init];
+    self.viewController.hypnosisView = [[BNRHypnosisView alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
     
     
-    [self.window addSubview:firstView];
+    self.window.rootViewController = self.viewController;
 
+    [self.window makeKeyAndVisible];
+    
+    return YES;
+    
+//    CGRect firstFrame = self.window.bounds;
+//    BNRHypnosisView *firstView = [[BNRHypnosisView alloc]initWithFrame:firstFrame];
+//    firstView.backgroundColor = [UIColor clearColor];
+//    
+//    
+//    [self.window addSubview:firstView];
+    
     //    CGRect secondFrame = CGRectMake(50, 75, 50, 75);
     //    BNRHypnosisView *secondView = [[BNRHypnosisView alloc]initWithFrame:secondFrame];
     //    secondView.backgroundColor = [UIColor greenColor];
     //    [firstView addSubview:secondView];
-    
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    
-    return YES;
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CreateSubviewViewController.h"
 
 @interface CreateSubviewAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic)CreateSubviewViewController *viewController;
 @end
