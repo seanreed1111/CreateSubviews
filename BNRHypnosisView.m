@@ -14,7 +14,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // All views should have a clear background color
+        // All views should have a white background color
         self.backgroundColor = [UIColor whiteColor];
     }
     return self;

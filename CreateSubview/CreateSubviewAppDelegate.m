@@ -8,6 +8,7 @@
 
 #import "CreateSubviewAppDelegate.h"
 #import "BNRHypnosisView.h"
+#import "BNRHypnosisView.h"
 
 @implementation CreateSubviewAppDelegate
 
@@ -17,11 +18,15 @@
     
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
     
-    self.viewController = [[CreateSubviewViewController alloc]init];
-    self.viewController.view = [[BNRHypnosisView alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.chessBoardController = [[ChessBoardViewController alloc]init];
+    self.chessBoardController.view = [[ChessBoardView alloc]initWithSquareSize:25.0]; // 25 pts per square
     
     
-    self.window.rootViewController = self.viewController;
+//    self.viewController = [[CreateSubviewViewController alloc]init];
+//    self.viewController.view = [[BNRHypnosisView alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    
+    self.window.rootViewController = self.chessBoardController;
 
     [self.window makeKeyAndVisible];
     

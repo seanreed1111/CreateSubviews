@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ChessBoardView.h"
 
 @interface ChessBoardViewController : UIViewController
+@property (strong, nonatomic)ChessBoardView *view;
 
 @end

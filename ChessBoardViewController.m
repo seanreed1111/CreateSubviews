@@ -23,10 +23,18 @@
     return self;
 }
 
+
 - (void)loadView
 {
-   //override loadView
+    //no need to do [super loadView] here, according to apple docs
+    CGRect screenRect = [[UIScreen mainScreen]bounds];
+    CGFloat screenWidth = screenRect.size.width;
+    CGFloat screenHeight = screenRect.size.height;
+    self.view = [[ChessBoardView alloc]initWithFrame:CGRectMake(0, 0, screenWidth, screenHeight)];
 }
+
+
+
 
 - (void)viewDidLoad
 {
