@@ -18,7 +18,7 @@
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
     
     self.viewController = [[CreateSubviewViewController alloc]init];
-    self.viewController.hypnosisView = [[BNRHypnosisView alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.viewController.view = [[BNRHypnosisView alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
     
     
     self.window.rootViewController = self.viewController;

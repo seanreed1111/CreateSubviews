@@ -10,6 +10,6 @@
 #import "BNRHypnosisView.h"
 
 @interface CreateSubviewViewController : UIViewController
-@property (strong, nonatomic) BNRHypnosisView *hypnosisView;
+@property (strong, nonatomic) BNRHypnosisView *view;
 
 @end

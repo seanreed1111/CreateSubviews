@@ -16,12 +16,11 @@
 
 - (void)loadView
 {
-    [super loadView];
+    //no need to do [super loadView] here, according to apple docs
     CGRect screenRect = [[UIScreen mainScreen]bounds];
     CGFloat screenWidth = screenRect.size.width;
     CGFloat screenHeight = screenRect.size.height;
-    BNRHypnosisView *myView = [[BNRHypnosisView alloc]initWithFrame:CGRectMake(0, 0, screenWidth, screenHeight)];
-    self.view = myView;
+    self.view = [[BNRHypnosisView alloc]initWithFrame:CGRectMake(0, 0, screenWidth, screenHeight)];
 }
 
 - (void)viewDidLoad

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141ACAF319C7397600ABB9FF /* ChessBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 141ACAF219C7397600ABB9FF /* ChessBoardViewController.m */; };
+		141ACAF619C739C700ABB9FF /* ChessBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 141ACAF519C739C700ABB9FF /* ChessBoardView.m */; };
+		141ACAF819C73E3800ABB9FF /* Storyboard1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141ACAF719C73E3800ABB9FF /* Storyboard1.storyboard */; };
 		14A3EF6719C332CF00F59FE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3EF6619C332CF00F59FE7 /* Foundation.framework */; };
 		14A3EF6919C332CF00F59FE7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3EF6819C332CF00F59FE7 /* CoreGraphics.framework */; };
 		14A3EF6B19C332CF00F59FE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3EF6A19C332CF00F59FE7 /* UIKit.framework */; };
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		141ACAF119C7397600ABB9FF /* ChessBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessBoardViewController.h; sourceTree = "<group>"; };
+		141ACAF219C7397600ABB9FF /* ChessBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessBoardViewController.m; sourceTree = "<group>"; };
+		141ACAF419C739C700ABB9FF /* ChessBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessBoardView.h; sourceTree = "<group>"; };
+		141ACAF519C739C700ABB9FF /* ChessBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessBoardView.m; sourceTree = "<group>"; };
+		141ACAF719C73E3800ABB9FF /* Storyboard1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard1.storyboard; sourceTree = "<group>"; };
 		14A3EF6319C332CF00F59FE7 /* CreateSubview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreateSubview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A3EF6619C332CF00F59FE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		14A3EF6819C332CF00F59FE7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -83,6 +91,10 @@
 		14A3EF5A19C332CE00F59FE7 = {
 			isa = PBXGroup;
 			children = (
+				141ACAF419C739C700ABB9FF /* ChessBoardView.h */,
+				141ACAF519C739C700ABB9FF /* ChessBoardView.m */,
+				141ACAF119C7397600ABB9FF /* ChessBoardViewController.h */,
+				141ACAF219C7397600ABB9FF /* ChessBoardViewController.m */,
 				14A3EF9B19C335F200F59FE7 /* BNRHypnosisView.h */,
 				14A3EF9C19C335F200F59FE7 /* BNRHypnosisView.m */,
 				14A3EF6C19C332CF00F59FE7 /* CreateSubview */,
@@ -116,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				14A3EF7519C332CF00F59FE7 /* CreateSubviewAppDelegate.h */,
+				141ACAF719C73E3800ABB9FF /* Storyboard1.storyboard */,
 				14A3EF7619C332CF00F59FE7 /* CreateSubviewAppDelegate.m */,
 				14A3EF7B19C332CF00F59FE7 /* CreateSubviewViewController.h */,
 				14A3EF7C19C332CF00F59FE7 /* CreateSubviewViewController.m */,
@@ -233,6 +246,7 @@
 			files = (
 				14A3EF7F19C332CF00F59FE7 /* Images.xcassets in Resources */,
 				14A3EF7119C332CF00F59FE7 /* InfoPlist.strings in Resources */,
+				141ACAF819C73E3800ABB9FF /* Storyboard1.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +267,9 @@
 			files = (
 				14A3EF7D19C332CF00F59FE7 /* CreateSubviewViewController.m in Sources */,
 				14A3EF7719C332CF00F59FE7 /* CreateSubviewAppDelegate.m in Sources */,
+				141ACAF319C7397600ABB9FF /* ChessBoardViewController.m in Sources */,
 				14A3EF9D19C335F200F59FE7 /* BNRHypnosisView.m in Sources */,
+				141ACAF619C739C700ABB9FF /* ChessBoardView.m in Sources */,
 				14A3EF7319C332CF00F59FE7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,6 +467,7 @@
 				14A3EF9719C332CF00F59FE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14A3EF9819C332CF00F59FE7 /* Build configuration list for PBXNativeTarget "CreateSubviewTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +476,7 @@
 				14A3EF9A19C332CF00F59FE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
